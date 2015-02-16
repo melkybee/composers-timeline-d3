@@ -1,0 +1,50 @@
+start,end,label
+1000,1399,Medieval
+1401,1499,Early Renaissance
+1500,1599,High Renaissance
+1550,1699,Early Baroque
+1650,1749,High Baroque
+1750,1799,Classical
+1800,1849,Romantic
+1850,1899,Modern
+1900,,20th Century
+1653,1706,Johann Pachelbel
+1653,1713,Arcangelo Corelli
+1678,1741,Antonio Vivaldi
+1681,1767,Georg Philipp Telemann
+1685,1750,Johann Sebastian Bach
+1685,1759,George Frideric Handel
+1732,1809,Franz Joseph Haydn
+1745,1801,Carl Philipp Stamitz
+1756,1791,Wolfgang Amadeus Mozart
+1782,1840,Niccolo Paganini
+1797,1828,Franz Peter Schubert
+1803,1869,Louis-Hector Berlioz
+1809,1847,Jacob Ludwig Felix Mendelssohn
+1810,1849,Frederic Chopin
+1811,1886,Franz Liszt
+1813,1883,Wilhelm Richard Wagner
+1813,1901,Giuseppe Fortunino Frencesco Verdi
+1819,1895,Franz von Suppé
+1824,1884,Bedřich Friedrich Smetana
+1825,1899,Johann Strauss II
+1833,1897,Johannes Brahms
+1835,1921,Charles-Camille Saint-Saëns
+1839,1881,Modest Petrovich Mussorgsky
+1840,1893,Piotr Ilyich Tchaikovsky
+1841,1904,Antonín Dvořák
+1844,1908,Nikolai Rimsky-Korsakov
+1857,1934,Sir Edward William Elgar
+1860,1911,Gustav Mahler
+1862,1918,Achille-Claude Debussy
+1865,1957,Jean (Johan) Julius Christian Sibelius
+1874,1951,Arnold Franz Walter Schoenberg
+1874,1934,Gustav Theodore Holst
+1881,1945,Béla Bartók
+1882,1971,Igor Stravinsky
+1895,1963,Paul Hindemith
+1898,1937,George Gershwin
+1902,1983,Sir William Turner Walton
+1918,1990,Leonard Bernstein
+1919,,Vaclav Nelhybel
+1948,,Andrew Lloyd Webber

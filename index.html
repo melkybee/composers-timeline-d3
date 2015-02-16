@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" lang="de" content="Zeitleiste, Zeitlinie, Zeitkarte, Geschichte, Chronologie">
+        <meta name="keywords" lang="en" content="Timeline, Timemap, History, Chronology">
+        <title>Timeline of Composers</title>
+
+        <script src="http://d3js.org/d3.v3.min.js"></script>
+        <script src="timeline.js"></script>
+        <link href="timeline.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+
+        <div id="timeline"></div>
+
+        <script>
+
+            /*  A timeline can have the following components:
+
+                .bar(barName, height)
+                    barName - string; the name of the bar for references
+                    height - percentage; height of the bar in relation to the total height
+
+                .xAxis(barName)
+                    barName - string; the name of the bar the xAxis will be attached to
+                    Defines an xAxis for a bar to show the range of the bar.
+
+                .labels(barName)
+                    barName - string; the name of the bar the labels will be attached to
+                    Shows the start, length and end of the range of the bar.
+
+                .tooltips(barName)
+                    barName - string; the name of the bar the tooltips will be attached to
+                    Shows current start, length, and end of the selected interval of the bar.
+
+                .redraw()
+                    Shows the initial view of the timeline.
+
+            */
+
+            // Read in the data and construct the timeline
+            d3.csv("composers.csv", function(dataset) {
+
+                timeline("#timeline")
+                    .data(dataset)
+                    .bar("mainBar", 0.8)
+                    .xAxis("mainBar")
+                    .tooltips("mainBar")
+                    .labels("mainBar")
+                    .redraw();
+
+            });
+
+        </script>
+
+    </body>
+
+</html>
